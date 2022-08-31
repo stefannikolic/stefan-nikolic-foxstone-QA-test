@@ -1,0 +1,27 @@
+{
+  "name": "forgetpass",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cy:run:spec": "yarn cypress run --spec 'cypress/e2e/forgot-password/password-reset.cy.js'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stefannikolic/forgetPass.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stefannikolic/forgetPass/issues"
+  },
+  "homepage": "https://github.com/stefannikolic/forgetPass#readme",
+  "devDependencies": {
+    "cypress": "^10.7.0",
+    "cypress-mailosaur": "^2.11.0"
+  },
+  "dependencies": {
+    "cypress-cucumber-preprocessor": "^4.3.1",
+    "mailslurp": "0.0.1-security"
+  }
+}
